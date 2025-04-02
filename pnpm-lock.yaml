@@ -13,10 +13,10 @@ importers:
         version: 11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/core':
         specifier: ^11.0.1
-        version: 11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.0.11)(reflect-metadata@0.2.2)(rxjs@7.8.2)
+        version: 11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.0.12)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nestjs/platform-express':
-        specifier: ^11.0.1
-        version: 11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)
+        specifier: ^11.0.12
+        version: 11.0.12(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)
       '@prisma/client':
         specifier: ^6.5.0
         version: 6.5.0(prisma@6.5.0(typescript@5.8.2))(typescript@5.8.2)
@@ -41,7 +41,7 @@ importers:
         version: 11.0.2(chokidar@4.0.3)(typescript@5.8.2)
       '@nestjs/testing':
         specifier: ^11.0.12
-        version: 11.0.12(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)(@nestjs/platform-express@11.0.11)
+        version: 11.0.12(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)(@nestjs/platform-express@11.0.12)
       '@swc/cli':
         specifier: ^0.6.0
         version: 0.6.0(@swc/core@1.11.11)(chokidar@4.0.3)
@@ -897,8 +897,8 @@ packages:
       '@nestjs/websockets':
         optional: true
 
-  '@nestjs/platform-express@11.0.11':
-    resolution: {integrity: sha512-iv6nH66i/RuRQufg5UUboQ4jQX4NuuePrYQpHB3ueiEIhJm2yLhhNYM6Y2l/76y9woW2eckbiqbzmW/JajAgeQ==}
+  '@nestjs/platform-express@11.0.12':
+    resolution: {integrity: sha512-Jze6dY1q1BBAjFuPQT9CLjYFl5IxMSQQxD+xs6cV+4EIysHxgSFZMJqiTpknZTFgPneyp0zF1TtQAjxBshnwlg==}
     peerDependencies:
       '@nestjs/common': ^11.0.0
       '@nestjs/core': ^11.0.0
@@ -1492,8 +1492,8 @@ packages:
   bl@4.1.0:
     resolution: {integrity: sha512-1W07cM9gS6DcLperZfFSj+bWLtaPGSOHWhPiGzXmvVJbRLdG82sH/Kn8EtW1VqWVA54AKf2h5k5BbnIbwF3h6w==}
 
-  body-parser@2.1.0:
-    resolution: {integrity: sha512-/hPxh61E+ll0Ujp24Ilm64cykicul1ypfwjVttduAiEdtnJFvLePSrIPk+HMImtNv5270wOGCb1Tns2rybMkoQ==}
+  body-parser@2.2.0:
+    resolution: {integrity: sha512-02qvAaxv8tp7fBa/mw1ga98OGm+eCbqzJOKoRt70sLmfEEi+jyBYVTDGfCL/k06/4EMk/z01gCe7HoCH/f2LTg==}
     engines: {node: '>=18'}
 
   brace-expansion@1.1.11:
@@ -1780,10 +1780,6 @@ packages:
   depd@2.0.0:
     resolution: {integrity: sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==}
     engines: {node: '>= 0.8'}
-
-  destroy@1.2.0:
-    resolution: {integrity: sha512-2sJGJTaXIIaR1w4iJSNoN0hnMY7Gpc/n8D4qSCJw8QqFWXf7cuAgnEHxBpweaVcPevC2l3KpjYCx3NypQQgaJg==}
-    engines: {node: '>= 0.8', npm: 1.2.8000 || >= 1.4.16}
 
   detect-newline@3.1.0:
     resolution: {integrity: sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==}
@@ -2097,10 +2093,6 @@ packages:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
     engines: {node: '>= 0.6'}
 
-  fresh@0.5.2:
-    resolution: {integrity: sha512-zJ2mQYM18rEFOudeV4GShTGIQ7RbzA7ozbU9I/XBpm7kqgMywgmylMwXHxZJmkVoYkna9d2pVXVXPdYTP9ej8Q==}
-    engines: {node: '>= 0.6'}
-
   fresh@2.0.0:
     resolution: {integrity: sha512-Rx/WycZ60HOaqLKAi6cHRKKI7zxWbJ31MhntmtwMoaTeF7XFH9hhBp8vITaMidfljRQ6eYWCKkaTK+ykVJHP2A==}
     engines: {node: '>= 0.8'}
@@ -2241,10 +2233,6 @@ packages:
 
   iconv-lite@0.4.24:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
-    engines: {node: '>=0.10.0'}
-
-  iconv-lite@0.5.2:
-    resolution: {integrity: sha512-kERHXvpSaB4aU3eANwidg79K8FlrN77m8G9V+0vOR3HYaRifrlwMEpT7ZBJqLSEIHnEgJTHcWK82wwLwwKwtag==}
     engines: {node: '>=0.10.0'}
 
   iconv-lite@0.6.3:
@@ -2667,16 +2655,16 @@ packages:
     resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
     engines: {node: '>= 0.6'}
 
-  mime-db@1.53.0:
-    resolution: {integrity: sha512-oHlN/w+3MQ3rba9rqFr6V/ypF10LSkdwUysQL7GkXoTgIWeV+tcXGA852TBxH+gsh8UWoyhR1hKcoMJTuWflpg==}
+  mime-db@1.54.0:
+    resolution: {integrity: sha512-aU5EJuIN2WDemCcAp2vFBfp/m4EAhWJnUNSSw0ixs7/kXbd6Pg64EmwJkNdFhB8aWt1sH2CTXrLxo/iAGV3oPQ==}
     engines: {node: '>= 0.6'}
 
   mime-types@2.1.35:
     resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
     engines: {node: '>= 0.6'}
 
-  mime-types@3.0.0:
-    resolution: {integrity: sha512-XqoSHeCGjVClAmoGFG3lVFqQFRIrTVw2OH3axRqAcfaw+gHWIfnASS92AV+Rl/mk0MupgZTRHQOjxY6YVnzK5w==}
+  mime-types@3.0.1:
+    resolution: {integrity: sha512-xRc4oEhT6eaBpU1XF7AjpOFD+xQmXNB5OVKwp4tqCuBpHLS/ZbBDrc07mYTDqVMg6PfxUjjNp85O6Cd2Z/5HWA==}
     engines: {node: '>= 0.6'}
 
   mime@2.6.0:
@@ -3040,8 +3028,8 @@ packages:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  router@2.1.0:
-    resolution: {integrity: sha512-/m/NSLxeYEgWNtyC+WtNHCF7jbGxOibVWKnn+1Psff4dJGOfoXP+MuC/f2CwSmyiHdOIzYnYFp4W6GxWfekaLA==}
+  router@2.2.0:
+    resolution: {integrity: sha512-nLTrUKm2UyiL7rlhapu/Zl45FwNgkZGaCpZbIHajDYgwlJCOzLSk+cIPAnsEqV955GjILJnKbdQC1nVPz+gAYQ==}
     engines: {node: '>= 18'}
 
   run-parallel@1.2.0:
@@ -3091,15 +3079,15 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
-  send@1.1.0:
-    resolution: {integrity: sha512-v67WcEouB5GxbTWL/4NeToqcZiAWEq90N888fczVArY8A79J0L4FD7vj5hm3eUMua5EpoQ59wa/oovY6TLvRUA==}
+  send@1.2.0:
+    resolution: {integrity: sha512-uaW0WwXKpL9blXE2o0bRhoL2EGXIrZxQ2ZQ4mgcfoBxdFmQold+qWsD2jLrfZ0trjKL6vOw0j//eAwcALFjKSw==}
     engines: {node: '>= 18'}
 
   serialize-javascript@6.0.2:
     resolution: {integrity: sha512-Saa1xPByTTq2gdeFZYLLo+RFE35NHZkAbqZeWNd3BpzppeVisAqpDjcp8dyf6uIvEqJRd46jemmyA4iFIeVk8g==}
 
-  serve-static@2.1.0:
-    resolution: {integrity: sha512-A3We5UfEjG8Z7VkDv6uItWw6HY2bBSBJT1KtVESn6EOoOr2jAxNhxWCLY3jDE2WcuHXByWju74ck3ZgLwL8xmA==}
+  serve-static@2.2.0:
+    resolution: {integrity: sha512-61g9pCh0Vnh7IutZjtLGGpTA355+OPn2TyDv/6ivP2h/AdAVX9azsoxmg2/M6nZeQZNYBEwIcsne1mJd9oQItQ==}
     engines: {node: '>= 18'}
 
   setprototypeof@1.2.0:
@@ -3399,8 +3387,8 @@ packages:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==}
     engines: {node: '>= 0.6'}
 
-  type-is@2.0.0:
-    resolution: {integrity: sha512-gd0sGezQYCbWSbkZr75mln4YBidWUN60+devscpLF5mtRDUpiaTvKpBNrdaCvel1NdR2k6vclXybU5fBd2i+nw==}
+  type-is@2.0.1:
+    resolution: {integrity: sha512-OZs6gsjF4vMp32qrCbiVSkrFmXtG/AZhY3t0iAMrMBiAZyV9oALtXO8hsrHbMXF9x6L3grlFuwW2oAz7cav+Gw==}
     engines: {node: '>= 0.6'}
 
   typedarray@0.0.6:
@@ -4396,7 +4384,7 @@ snapshots:
       tslib: 2.8.1
       uid: 2.0.2
 
-  '@nestjs/core@11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.0.11)(reflect-metadata@0.2.2)(rxjs@7.8.2)':
+  '@nestjs/core@11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.0.12)(reflect-metadata@0.2.2)(rxjs@7.8.2)':
     dependencies:
       '@nestjs/common': 11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2)
       '@nuxt/opencollective': 0.4.1
@@ -4408,12 +4396,12 @@ snapshots:
       tslib: 2.8.1
       uid: 2.0.2
     optionalDependencies:
-      '@nestjs/platform-express': 11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)
+      '@nestjs/platform-express': 11.0.12(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)
 
-  '@nestjs/platform-express@11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)':
+  '@nestjs/platform-express@11.0.12(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)':
     dependencies:
       '@nestjs/common': 11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      '@nestjs/core': 11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.0.11)(reflect-metadata@0.2.2)(rxjs@7.8.2)
+      '@nestjs/core': 11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.0.12)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       cors: 2.8.5
       express: 5.0.1
       multer: 1.4.5-lts.1
@@ -4444,13 +4432,13 @@ snapshots:
     transitivePeerDependencies:
       - chokidar
 
-  '@nestjs/testing@11.0.12(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)(@nestjs/platform-express@11.0.11)':
+  '@nestjs/testing@11.0.12(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)(@nestjs/platform-express@11.0.12)':
     dependencies:
       '@nestjs/common': 11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2)
-      '@nestjs/core': 11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.0.11)(reflect-metadata@0.2.2)(rxjs@7.8.2)
+      '@nestjs/core': 11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/platform-express@11.0.12)(reflect-metadata@0.2.2)(rxjs@7.8.2)
       tslib: 2.8.1
     optionalDependencies:
-      '@nestjs/platform-express': 11.0.11(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)
+      '@nestjs/platform-express': 11.0.12(@nestjs/common@11.0.11(reflect-metadata@0.2.2)(rxjs@7.8.2))(@nestjs/core@11.0.11)
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -4951,7 +4939,7 @@ snapshots:
 
   accepts@2.0.0:
     dependencies:
-      mime-types: 3.0.0
+      mime-types: 3.0.1
       negotiator: 1.0.0
 
   acorn-jsx@5.3.2(acorn@8.14.1):
@@ -5123,17 +5111,17 @@ snapshots:
       inherits: 2.0.4
       readable-stream: 3.6.2
 
-  body-parser@2.1.0:
+  body-parser@2.2.0:
     dependencies:
       bytes: 3.1.2
       content-type: 1.0.5
       debug: 4.4.0
       http-errors: 2.0.0
-      iconv-lite: 0.5.2
+      iconv-lite: 0.6.3
       on-finished: 2.4.1
       qs: 6.14.0
       raw-body: 3.0.0
-      type-is: 2.0.0
+      type-is: 2.0.1
     transitivePeerDependencies:
       - supports-color
 
@@ -5393,8 +5381,6 @@ snapshots:
 
   depd@2.0.0: {}
 
-  destroy@1.2.0: {}
-
   detect-newline@3.1.0: {}
 
   dezalgo@1.0.4:
@@ -5618,7 +5604,7 @@ snapshots:
   express@5.0.1:
     dependencies:
       accepts: 2.0.0
-      body-parser: 2.1.0
+      body-parser: 2.2.0
       content-disposition: 1.0.0
       content-type: 1.0.5
       cookie: 0.7.1
@@ -5633,20 +5619,20 @@ snapshots:
       http-errors: 2.0.0
       merge-descriptors: 2.0.0
       methods: 1.1.2
-      mime-types: 3.0.0
+      mime-types: 3.0.1
       on-finished: 2.4.1
       once: 1.4.0
       parseurl: 1.3.3
       proxy-addr: 2.0.7
       qs: 6.13.0
       range-parser: 1.2.1
-      router: 2.1.0
+      router: 2.2.0
       safe-buffer: 5.2.1
-      send: 1.1.0
-      serve-static: 2.1.0
+      send: 1.2.0
+      serve-static: 2.2.0
       setprototypeof: 1.2.0
       statuses: 2.0.1
-      type-is: 2.0.0
+      type-is: 2.0.1
       utils-merge: 1.0.1
       vary: 1.1.2
     transitivePeerDependencies:
@@ -5654,7 +5640,7 @@ snapshots:
 
   ext-list@2.2.2:
     dependencies:
-      mime-db: 1.53.0
+      mime-db: 1.54.0
 
   ext-name@5.0.0:
     dependencies:
@@ -5792,8 +5778,6 @@ snapshots:
       once: 1.4.0
 
   forwarded@0.2.0: {}
-
-  fresh@0.5.2: {}
 
   fresh@2.0.0: {}
 
@@ -5933,10 +5917,6 @@ snapshots:
   human-signals@2.1.0: {}
 
   iconv-lite@0.4.24:
-    dependencies:
-      safer-buffer: 2.1.2
-
-  iconv-lite@0.5.2:
     dependencies:
       safer-buffer: 2.1.2
 
@@ -6498,15 +6478,15 @@ snapshots:
 
   mime-db@1.52.0: {}
 
-  mime-db@1.53.0: {}
+  mime-db@1.54.0: {}
 
   mime-types@2.1.35:
     dependencies:
       mime-db: 1.52.0
 
-  mime-types@3.0.0:
+  mime-types@3.0.1:
     dependencies:
-      mime-db: 1.53.0
+      mime-db: 1.54.0
 
   mime@2.6.0: {}
 
@@ -6819,11 +6799,15 @@ snapshots:
 
   reusify@1.1.0: {}
 
-  router@2.1.0:
+  router@2.2.0:
     dependencies:
+      debug: 4.4.0
+      depd: 2.0.0
       is-promise: 4.0.0
       parseurl: 1.3.3
       path-to-regexp: 8.2.0
+    transitivePeerDependencies:
+      - supports-color
 
   run-parallel@1.2.0:
     dependencies:
@@ -6870,16 +6854,15 @@ snapshots:
 
   semver@7.7.1: {}
 
-  send@1.1.0:
+  send@1.2.0:
     dependencies:
       debug: 4.4.0
-      destroy: 1.2.0
       encodeurl: 2.0.0
       escape-html: 1.0.3
       etag: 1.8.1
-      fresh: 0.5.2
+      fresh: 2.0.0
       http-errors: 2.0.0
-      mime-types: 2.1.35
+      mime-types: 3.0.1
       ms: 2.1.3
       on-finished: 2.4.1
       range-parser: 1.2.1
@@ -6891,12 +6874,12 @@ snapshots:
     dependencies:
       randombytes: 2.1.0
 
-  serve-static@2.1.0:
+  serve-static@2.2.0:
     dependencies:
       encodeurl: 2.0.0
       escape-html: 1.0.3
       parseurl: 1.3.3
-      send: 1.1.0
+      send: 1.2.0
     transitivePeerDependencies:
       - supports-color
 
@@ -7212,11 +7195,11 @@ snapshots:
       media-typer: 0.3.0
       mime-types: 2.1.35
 
-  type-is@2.0.0:
+  type-is@2.0.1:
     dependencies:
       content-type: 1.0.5
       media-typer: 1.1.0
-      mime-types: 3.0.0
+      mime-types: 3.0.1
 
   typedarray@0.0.6: {}
 
