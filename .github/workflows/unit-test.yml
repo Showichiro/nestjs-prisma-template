@@ -1,0 +1,19 @@
+name: Run unit-test
+
+on:
+  pull_request:
+
+jobs:
+  check-lint-and-format:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - name: Install packages
+        run: pnpm install
+
+      - name: Test
+        run: pnpm test
