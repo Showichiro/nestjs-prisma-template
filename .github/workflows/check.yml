@@ -15,6 +15,12 @@ jobs:
       - name: Install packages
         run: pnpm install
 
+      - name: Copy env
+        run: cp .env.develop .env
+
+      - name: Generate prisma client
+        run: pnpm generate:prisma
+
       - name: ESLint
         run: pnpm lint
 
