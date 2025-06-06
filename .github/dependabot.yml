@@ -15,13 +15,18 @@ updates:
     reviewers:
       - Showichiro
     groups:
+      minor-and-patch:
+        applies-to: version-updates
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
       nestjs-ecosystem:
         patterns:
           - '@nestjs/*'
         update-types:
           - 'major'
-          - 'minor'
-          - 'patch'
       prisma-ecosystem:
         patterns:
           - '@prisma/*'
@@ -29,8 +34,6 @@ updates:
           - 'prisma-dbml-generator'
         update-types:
           - 'major'
-          - 'minor'
-          - 'patch'
       code-quality-tools:
         patterns:
           - '@eslint/*'
@@ -39,8 +42,6 @@ updates:
           - '@typescript-eslint/*'
         update-types:
           - 'major'
-          - 'minor'
-          - 'patch'
       testing-tools:
         patterns:
           - 'jest*'
@@ -50,8 +51,6 @@ updates:
           - '@types/supertest'
         update-types:
           - 'major'
-          - 'minor'
-          - 'patch'
       typescript-ecosystem:
         patterns:
           - 'typescript'
@@ -60,8 +59,6 @@ updates:
           - 'ts-*'
         update-types:
           - 'major'
-          - 'minor'
-          - 'patch'
   - package-ecosystem: 'github-actions'
     directory: '/'
     schedule:
